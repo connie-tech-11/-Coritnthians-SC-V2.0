@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -93,7 +83,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #041562;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -473,14 +463,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -3140,13 +3122,13 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #041562;
+  border-color: #041562;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #112686;
+  border-color: #112686;
 }
 .bmore-btn {
   color: #fff;
@@ -3378,14 +3360,14 @@ fieldset:disabled .btn {
 }
 
 .btn-light {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #fff;
+  background-color: #DA1212;
+  border-color: #DA1212;
 }
 .btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  color: #fff;
+  background-color: #db2c2c;
+  border-color: #db2c2c;
 }
 .btn-check:focus + .btn-light,
 .btn-light:focus {
@@ -4219,12 +4201,13 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #f4623a;
+  color: yellow;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -4236,7 +4219,7 @@ fieldset:disabled .btn {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #c34e2e;
+  background: #dde0e4;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4245,7 +4228,7 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #00376e;
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -4268,7 +4251,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: #d40000 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4332,9 +4315,11 @@ fieldset:disabled .btn {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+  /* background-color: grey; */
+  
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
+  padding-top: 2.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -4347,6 +4332,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -7665,6 +7651,7 @@ fieldset:disabled .btn {
 
 .mt-0 {
   margin-top: 0 !important;
+  color: #fff;
 }
 
 .mt-1 {
@@ -8169,11 +8156,8 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(
-    var(--bs-primary-rgb),
-    var(--bs-bg-opacity)
-  ) !important;
+ background-color: #11468F;
+ height: auto;
 }
 
 .bg-secondary {
@@ -11675,7 +11659,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .text-white-75 {
@@ -11695,7 +11679,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #041562;
   opacity: 1;
 }
 
@@ -11773,12 +11757,13 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("../assets/img/bg-masthead.jpg");
+    url("../images/team.jpeg"); */
+  background-image: url(../images/team.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
