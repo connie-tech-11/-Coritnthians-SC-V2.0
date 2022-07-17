@@ -2530,8 +2530,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  /* -webkit-print-color-adjust: exact; */
+  /* color-adjust: exact; */
 }
 .form-check-input[type="checkbox"] {
   border-radius: 0.25em;
@@ -4202,6 +4202,7 @@ fieldset:disabled .btn {
   margin-bottom: 0;
   list-style: none;
   
+  
 }
 
 .nav-link {
@@ -4211,7 +4212,9 @@ fieldset:disabled .btn {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
+    color: red;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -4220,11 +4223,16 @@ fieldset:disabled .btn {
 .nav-link:hover,
 .nav-link:focus {
   background: #dde0e4;
+  
+}
+.active{
+  background-color: #11468F;
 }
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
+  
 }
 
 .nav-tabs {
@@ -4240,6 +4248,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
+  color: red;
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
@@ -11661,6 +11670,9 @@ body {
 .page-section {
   padding: 2rem 0;
 }
+.page-sections {
+  padding: 10rem 0;
+}
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
@@ -11714,6 +11726,7 @@ hr.divider-light {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
+  
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11763,7 +11776,7 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 100%
     ),
     url("../images/team.jpeg"); */
-  background-image: url(../images/team.jpeg);
+  background-image: url(../images/landing-page-1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11802,6 +11815,7 @@ header.masthead .h1 {
 #portfolio .container-xl,
 #portfolio .container-xxl {
   max-width: 1920px;
+  margin-top: 9rem;
 }
 #portfolio .container-fluid .portfolio-box,
 #portfolio .container-sm .portfolio-box,
