@@ -22,7 +22,7 @@
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
+  --bs-gray-900: black;
   --bs-primary: #f4623a;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
@@ -30,7 +30,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: black;
   --bs-primary-rgb: 244, 98, 58;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -59,7 +59,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: black;
   --bs-body-bg: #fff;
 }
 
@@ -309,7 +309,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #212529;
+  background-color: black;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -1992,15 +1992,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #212529;
+  --bs-table-striped-color: black;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #212529;
+  --bs-table-active-color: black;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #212529;
+  --bs-table-hover-color: black;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: black;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2142,7 +2142,7 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #212529;
+  --bs-table-bg: black;
   --bs-table-striped-bg: #2c3034;
   --bs-table-striped-color: #fff;
   --bs-table-active-bg: #373b3e;
@@ -2225,7 +2225,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2247,7 +2247,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #212529;
+  color: black;
   background-color: #fff;
   border-color: #fab19d;
   outline: 0;
@@ -2278,7 +2278,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: black;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2297,7 +2297,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: black;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2328,7 +2328,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: black;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2358,7 +2358,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2454,7 +2454,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2487,7 +2487,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #212529;
+  text-shadow: 0 0 0 black;
 }
 
 .form-select-sm {
@@ -2816,7 +2816,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -3083,7 +3083,7 @@ textarea.form-control.is-invalid {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3106,7 +3106,7 @@ textarea.form-control.is-invalid {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: black;
 }
 .btn-check:focus + .btn,
 .btn:focus {
@@ -3401,8 +3401,8 @@ fieldset:disabled .btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: black;
+  border-color: black;
 }
 .btn-dark:hover {
   color: #fff;
@@ -3435,8 +3435,8 @@ fieldset:disabled .btn {
 .btn-dark:disabled,
 .btn-dark.disabled {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-outline-primary {
@@ -3685,13 +3685,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-dark {
-  color: #212529;
-  border-color: #212529;
+  color: black;
+  border-color: black;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: black;
+  border-color: black;
 }
 .btn-check:focus + .btn-outline-dark,
 .btn-outline-dark:focus {
@@ -3703,8 +3703,8 @@ fieldset:disabled .btn {
 .btn-outline-dark.active,
 .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: black;
+  border-color: black;
 }
 .btn-check:checked + .btn-outline-dark:focus,
 .btn-check:active + .btn-outline-dark:focus,
@@ -3715,7 +3715,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-dark:disabled,
 .btn-outline-dark.disabled {
-  color: #212529;
+  color: black;
   background-color: transparent;
 }
 
@@ -3815,7 +3815,7 @@ fieldset:disabled .btn {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #212529;
+  color: black;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4019,7 +4019,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: black;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -4060,7 +4060,7 @@ fieldset:disabled .btn {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #212529;
+  color: black;
 }
 
 .dropdown-menu-dark {
@@ -4955,7 +4955,7 @@ fieldset:disabled .btn {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #212529;
+  color: black;
   text-align: left;
   background-color: #fff;
   border: 0;
@@ -5383,7 +5383,7 @@ fieldset:disabled .btn {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #212529;
+  color: black;
   background-color: #e9ecef;
 }
 
@@ -5391,7 +5391,7 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: black;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -6323,7 +6323,7 @@ fieldset:disabled .btn {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #212529;
+  color: black;
 }
 
 .carousel {
@@ -6840,7 +6840,7 @@ fieldset:disabled .btn {
 }
 
 .link-dark {
-  color: #212529;
+  color: black;
 }
 .link-dark:hover,
 .link-dark:focus {
@@ -7273,7 +7273,7 @@ fieldset:disabled .btn {
 }
 
 .border-dark {
-  border-color: #212529 !important;
+  border-color: black !important;
 }
 
 .border-white {
@@ -11709,7 +11709,7 @@ hr.divider-light {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: black;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -11754,13 +11754,13 @@ hr.divider-light {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f4623a;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
