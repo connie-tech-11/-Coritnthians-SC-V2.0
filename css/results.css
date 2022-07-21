@@ -173,13 +173,13 @@ ul li  {
 
 .fixture { 
     display: block; 
-    color: black; 
+    color: white; 
     text-decoration: none; 
     position: relative;
 } 
 
  div.fixture[data-href]:not(.disabled):hover { 
-    background: linear-gradient(270deg,#ff2882,#963cff 45%); 
+    background: linear-gradient(270deg,#11468f,#11468f 5%); 
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.15); 
     color: #fff; 
     cursor: pointer;
@@ -307,7 +307,7 @@ div.fixture .arrow-right  {
 } 
 
 .fixture .overview .score  { 
-    background:  #37003c; 
+    background:  black; 
     font-size:  1.8rem; 
     color:  #fff; 
     font-family:  PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
@@ -358,7 +358,7 @@ strong {
     padding: 0 .7rem; 
     font-weight: 400; 
     vertical-align: initial; 
-    color: #37003c; 
+    color: black; 
     position: relative;
 } 
 

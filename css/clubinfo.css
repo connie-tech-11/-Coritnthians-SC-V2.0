@@ -246,10 +246,10 @@ section {
     text-align: center;
 } 
 .club{
-  margin-top: 110px;
+  margin-top: 100px;
 }
 .mu-title .mu-subtitle  { 
-    color:  red;
+    color:  white;
     font-size: 50px; 
     font-family: "Tangerine", cursive; 
     line-height: 30px;
@@ -333,7 +333,7 @@ ul {
 } 
 
 .mu-readmore-btn,.mu-browsmore-btn,a:hover ,a:focus ,.navbar-default .navbar-nav > .active > a,a:hover ,a:focus ,.mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title,.mu-about-us-right ul li:before ,.mu-title .mu-subtitle ,a:hover ,a:focus ,.mu-menu-item-nav li .media .media-body .mu-menu-price,.mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info h4,a:hover ,a:focus ,a:hover ,a:focus ,span  { 
-    color: red;
+    color: white;
 } 
 
 .mu-about-us-right ul li:before  { 
