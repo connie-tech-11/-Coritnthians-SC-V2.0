@@ -1,0 +1,480 @@
+@font-face { 
+  font-family:PremierSans-Regular;
+  src:url(./fonts/PremierLeagueW01-Regular.eot-#iefix);
+  src:url(./fonts/PremierLeagueW01-Regular.eot-#iefix) format("eot"),url(./fonts/PremierLeagueW01-Regular.woff2) format("woff2"),url(./fonts/PremierLeagueW01-Regular.woff) format("woff"),url(./fonts/PremierLeagueW01-Regular.ttf) format("truetype"),url(./fonts/PremierLeagueW01-Regular.svg#7750d31b-4f46-466c-a7f2-d0071c638678) format("svg");
+} 
+@font-face { 
+  font-family:PremierSans-Bold;
+  src:url(./fonts/PremierLeagueW01-Bold.eot-#iefix);
+  src:url(./fonts/PremierLeagueW01-Bold.eot-#iefix) format("eot"),url(./fonts/PremierLeagueW01-Bold.woff2) format("woff2"),url(./fonts/PremierLeagueW01-Bold.woff) format("woff"),url(./fonts/PremierLeagueW01-Bold.ttf) format("truetype"),url(./fonts/PremierLeagueW01-Bold.svg#6fd2576b-b17d-42bb-8069-d902dd3f6a6e) format("svg");
+} 
+* { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    box-sizing: border-box;
+} 
+
+section { 
+    display: block;
+} 
+
+.fixtures { 
+    position: relative;
+} 
+
+[class*="col-"] { 
+    box-sizing: border-box; 
+    width: 100%; 
+    float: left; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    position: relative;
+} 
+
+[class^="col-1"] { 
+    width: 8.33333%;
+} 
+
+[class^="col-12"] { 
+    width: 100%;
+} 
+
+.wrapper .col-12,.wrapper.col-12 .col-12 { 
+    padding: 0;
+} 
+
+.wrapper { 
+    max-width: 1376px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+} 
+
+.wrapper.col-12 { 
+    float: none;
+} 
+
+[data-ui-tab].active  { 
+    display: block;
+} 
+
+.tabbedContent { 
+    float: left; 
+    width: 100%;
+} 
+
+main { 
+    display: block;
+} 
+
+#mainContent { 
+    clear: both; 
+    overflow: hidden; 
+    position: relative;
+} 
+
+@media (min-width: 63.9375em){ 
+  #mainContent { 
+    overflow: visible;
+  } 
+}     
+
+/* body { 
+    margin:    0;
+    overflow-x:   hidden;
+    font-family:  PremierSans-Regular,Arial,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight:  400; 
+    color:  black; 
+    -webkit-text-size-adjust:  100%; 
+    font-size:  1.4rem; 
+    min-width:  20em;
+    min-height: 50vh;
+}  */
+
+html { 
+    font-family:   sans-serif; 
+    -ms-text-size-adjust:   100%; 
+    -webkit-text-size-adjust:   100%;
+    font-size:  72.5%; 
+    max-width:  100%;
+    overflow-x: hidden;
+} 
+
+:selection { 
+    background: #ff2882; 
+    color: #fff;
+} 
+
+.right { 
+    float: right;
+} 
+
+.competition  { 
+    max-width: 65%; 
+    margin-bottom: 2rem; 
+    padding-right: 1rem; 
+    text-align: right;
+} 
+
+ul { 
+    padding-left: 0; 
+    margin-top: 0; 
+    margin-bottom: 0;
+} 
+
+.matchList  { 
+    margin-bottom: 3rem; 
+    border-top: 1px solid #efefef; 
+    clear: both;
+} 
+
+.competitionImage1 { 
+    content: ""; 
+    background: url(./images/global-sprite.png) -227px -366px no-repeat; 
+    width: 170px; 
+    height: 28px; 
+    display: block; 
+    background-image: url("./images/global-sprite.png"); 
+    background-position-x: -227px; 
+    background-position-y: -366px; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.competition .competitionImage1  { 
+    transform: scale(.85); 
+    right: -22px; 
+    position: relative;
+} 
+
+.competitionLabel1 { 
+    display: none;
+} 
+
+ul li  { 
+    list-style-type: none;
+} 
+
+.matchFixtureContainer { 
+    position: relative;
+} 
+
+.matchList > li  { 
+    border-bottom: 1px solid #efefef;
+} 
+
+.matchList > li ,.matchList > li:last-child  { 
+    border-bottom: 1px solid #efefef;
+} 
+
+.fixture { 
+    display: block; 
+    color: black; 
+    text-decoration: none; 
+    position: relative;
+} 
+
+ div.fixture[data-href]:not(.disabled):hover { 
+    background: linear-gradient(270deg,#ff2882,#963cff 45%); 
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.15); 
+    color: #fff; 
+    cursor: pointer;
+} 
+
+.fixture span  { 
+    display: inline-block; 
+    vertical-align: middle;
+} 
+
+.fixture .overview  { 
+    display: block; 
+    padding: 1.8rem 0;
+} 
+
+.fixture .teams  { 
+    position:   relative; 
+    font-size:   0;
+    width:  42%;
+    margin-right: -4px;
+} 
+
+.fixture .stadiumName  { 
+    padding-left: 1rem; 
+    font-size: 1.3rem; 
+    min-width: 16rem; 
+    display: -ms-inline-flexbox; 
+    display: inline-flex; 
+    width: 25%; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: pre-wrap; 
+    border-left-color: rgba(0,0,0,.15);
+} 
+
+.broadcastDataContainer { 
+    margin-right: 11.7rem; 
+    float: right; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-align: center; 
+    align-items: center;
+} 
+
+.fixture .overview .broadcastDataContainer  { 
+    margin-right: calc(12rem + 3%); 
+    display: -ms-flexbox; 
+    display: flex;
+} 
+
+.icn { 
+    background: url(./images/global-sprite.png) no-repeat; 
+    display: block; 
+    background-image: url("./images/global-sprite.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.icn.arrow-right { 
+    width: 9px; 
+    height: 8px; 
+    background: url(./images/arrows-sprite.png) -82px -56px no-repeat; 
+    background-image: url("./images/arrows-sprite.png"); 
+    background-position-x: -82px; 
+    background-position-y: -56px; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.fixture .arrow-right  { 
+    display: none;
+} 
+
+div.fixture .arrow-right  { 
+    display: block;
+} 
+
+.fixture .overview > .arrow-right  { 
+    position: absolute; 
+    top: 2.2rem; 
+    right: 2.3rem; 
+    transition: right .2s; 
+    content: ""; 
+    background: url(./images/arrows-sprite.png) -56px -47px no-repeat; 
+    width: 15px; 
+    height: 11px; 
+    background-image: url("./images/arrows-sprite.png"); 
+    background-position-x: -56px; 
+    background-position-y: -47px; 
+    background-size: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.fixture .team  { 
+    width: 50%; 
+    padding-left: 7.8rem; 
+    position: relative;
+} 
+
+.fixture .team:first-of-type  { 
+    text-align: right; 
+    padding-left: 0; 
+    padding-right: 7.8rem;
+} 
+
+.fixture .score  { 
+    width: 6.6rem; 
+    text-align: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    margin-left: -3.2rem; 
+    margin-top: -1.5rem;
+} 
+
+.fixture .overview .score  { 
+    background:  #37003c; 
+    font-size:  1.8rem; 
+    color:  #fff; 
+    font-family:  PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight:  400;
+    line-height: 3.2rem;
+} 
+
+.icn.stadium-b { 
+    width: 23px; 
+    height: 14px; 
+    background-position: -728px -552px;
+} 
+
+.fixture .stadium-b  { 
+    margin-right: .5rem;
+} 
+
+.fixture .stadiumName .stadium-b  { 
+    margin-right: 1rem;
+} 
+
+strong { 
+    font-weight:  400;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
+} 
+
+.fixture .teamName  { 
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight: 400; 
+    font-size: 1.7rem; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    width: 100%;
+} 
+
+.fixture .badge  { 
+    position: absolute; 
+    top: 50%; 
+    margin-top: -12.5px;
+} 
+
+.fixture .team:first-of-type .badge  { 
+    right: 4rem;
+} 
+
+.fixture .overview .score span  { 
+    padding: 0 .7rem; 
+    font-weight: 400; 
+    vertical-align: initial; 
+    color: #37003c; 
+    position: relative;
+} 
+
+.overview .score span:before ,.fixture .overview .score span:before  { 
+    content: " "; 
+    display: block; 
+    width: .1rem; 
+    height: 2.4rem; 
+    background: hsla(0,0%,100%,.2); 
+    position: absolute; 
+    top: .4rem; 
+    left: 50%;
+} 
+
+ .fixture .team:not(:first-of-type) .badge { 
+    left: 4.3rem;
+} 
+
+.fixture .team .shortname  { 
+    display: block; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+} 
+
+.fixture .team .abbr  { 
+    display: none;
+} 
+
+img { 
+    border:  0;
+    opacity: 1; 
+    transition: opacity .35s ease-in-out,transform .2s;
+} 
+
+.badge-image-container .badge-image  { 
+    vertical-align: middle;
+} 
+
+.badge-image-container .badge-image--25  { 
+    width: 2.5rem; 
+    height: 2.5rem;
+} 
+
+
+
+.fixture time  { 
+    display:   inline-block; 
+    vertical-align:   middle;
+    width:  6.6rem; 
+    text-align:  center; 
+    position:  absolute; 
+    top:  50%; 
+    left:  50%; 
+    margin-left:  -3.2rem; 
+    margin-top:  -1.7rem;
+    background: #fff; 
+    color: #2f2f2f; 
+    font-size: 1.3rem; 
+    border: 1px solid #efefef; 
+} 
+
+.fixture .overview time  { 
+    line-height: 3.2rem;
+} 
+
+.icn.stadium-b { 
+    width: 23px; 
+    height: 14px; 
+    background-position: -728px -552px;
+} 
+
+.fixture .stadium-b  { 
+    margin-right: .5rem;
+} 
+
+.fixture .stadiumName .stadium-b  { 
+    margin-right: 1rem;
+} 
+
+strong { 
+    font-weight:  400;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
+} 
+
+.fixture .teamName  { 
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight: 400; 
+    font-size: 1.7rem; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    width: 100%;
+} 
+
+.fixture .badge  { 
+    position: absolute; 
+    top: 50%; 
+    margin-top: -12.5px;
+} 
+
+.fixture .team:first-of-type .badge  { 
+    right: 4rem;
+} 
+
+ .fixture .team:not(:first-of-type) .badge { 
+    left: 4.3rem;
+} 
+
+.fixture .team .shortname  { 
+    display: block; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+} 
+
+.fixture .team .abbr  { 
+    display: none;
+} 
