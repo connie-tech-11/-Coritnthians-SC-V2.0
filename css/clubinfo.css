@@ -320,6 +320,7 @@ ul {
     padding: 0; 
     margin: 0; 
     list-style: none;
+    color: #fff;
 } 
 
 .mu-about-us-right ul  { 
@@ -488,10 +489,10 @@ ul {
 p { 
     margin:  0 0 10px;
     font-size: 13px; 
-    color: black; 
+    color: #fff; 
     font-weight: bolder; 
     line-height: 25px; 
-    font-family: 'open_sansregular';
+    /* font-family: 'open_sansregular'; */
 } 
 
 .blog-info p  { 
@@ -500,7 +501,7 @@ p {
 } 
 
 a.btn-blg { 
-    color: black;
+    color: #fff;
 } 
 
 a.btn-blg:hover { 
@@ -513,10 +514,10 @@ a.btn-blg:hover {
 } 
 
 h4 { 
-    font-family:   'helvetica_ce_55_romanregular';
+    /* font-family:   'helvetica_ce_55_romanregular'; */
     font-weight:     500; 
     line-height:     1.1; 
-    color:  black; 
+    color:  #fff; 
     margin-top:    10px; 
     margin-bottom:    10px;
     font-size:  21px; 
@@ -529,10 +530,10 @@ strong {
 } 
 
 h5 { 
-    font-family:   'helvetica_ce_55_romanregular';
+    /* font-family:   'helvetica_ce_55_romanregular'; */
     font-weight:     500; 
     line-height:     1.1; 
-    color:  black; 
+    color:  #fff; 
     margin-top:    10px; 
     margin-bottom:    10px;
     font-size:  18px;
@@ -561,7 +562,7 @@ h5 {
 .blog-info i.fa  { 
     float: left; 
     margin-right: 10px; 
-    color: black;
+    color: #fff;
 } 
 
 .fa-pencil:before { 
@@ -581,7 +582,7 @@ h6 {
 
 .blog-info h6  { 
     margin: 0; 
-    color: black; 
+    color: #fff; 
     float: left;
 } 
 
