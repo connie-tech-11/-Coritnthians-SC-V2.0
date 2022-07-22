@@ -69,5 +69,7 @@ body{
         @media screen and (max-width: 990px){
             .our-team{
                 margin-bottom: 30px;
+                /* left: 0%; */
+                right: 25%;
             }
         }
