@@ -266,7 +266,7 @@ h2 {
 } 
 
 .mu-title h2  { 
-  color: purple; 
+  color: white; 
   font-size: 35px; 
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
@@ -320,7 +320,7 @@ ul {
   padding: 0; 
   margin: 0; 
   list-style: none;
-  color: red;
+  color: white;
   font-size: 13px;
   font-family: 'Poppins', sans-serif;
 } 
@@ -491,7 +491,7 @@ ul {
 p { 
   margin:  0 0 10px;
   font-size: 13px; 
-  color: yellow; 
+  color: white; 
   /* font-weight: bolder;  */
   line-height: 25px; 
   font-family: 'Poppins', sans-serif;
@@ -535,7 +535,7 @@ h5 {
   font-family: 'Poppins', sans-serif;
   /* font-weight:     500;  */
   line-height:     1.1; 
-  color:  green; 
+  color:  white; 
   margin-top:    10px; 
   margin-bottom:    10px;
   font-size:  18px;
