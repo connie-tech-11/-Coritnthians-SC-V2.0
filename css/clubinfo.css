@@ -321,6 +321,7 @@ ul {
   margin: 0; 
   list-style: none;
   color: red;
+  font-size: 13px;
   font-family: 'Poppins', sans-serif;
 } 
 
