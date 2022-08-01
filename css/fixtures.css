@@ -144,7 +144,9 @@ h3  {
     color: white;
     padding-top: 7rem;
 } 
-
+.test{
+  padding-top: 1rem;
+}
 @media screen and (min-width: 992px){ 
   .css-khfb7j { 
     font-size: 20px;
